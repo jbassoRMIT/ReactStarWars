@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Caveat:wght@400..700&family=Fascinate&family=Michroma&family=Playwrite+HU:wght@100..400&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@1,600&family=Sixtyfour&family=UnifrakturMaguntia&family=VT323&family=WDXL+Lubrifont+SC&display=swap');
+
+.header{
+    background-color: rgb(149, 205, 253);
+}
+
+h1{
+    font-family: "Bigelow Rules";
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.body h2{
+    text-align: left;
+}
+
+.body > * {
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.characterCard {
+    margin: 10px;
+    background-color: rgb(217, 198, 235);
+}
+
+.favLego{
+    background-color: rgb(170, 251, 175);
+}
+
+.favLego h2{
+    padding-left: 0;
+}
+
+.characterSearchBlock{
+    background-color: rgb(200, 169, 243);
+}
+
+.legoFilter{
+    background-color: rgb(233, 114, 114);
+}
